@@ -1,0 +1,3 @@
+<div class="inner-container">
+  <app-post-info [post]="post" [newComment]="newComment" *ngIf="post != null" (onComment)="addComment($event)"></app-post-info>
+</div>
